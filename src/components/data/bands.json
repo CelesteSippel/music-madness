@@ -1,28 +1,22 @@
 {
-  "categories": [
+  "bands": [
     {
-      "category": "artists",
-      "names": [
-        {
-          "image1": "https://i.pinimg.com/originals/57/9b/3d/579b3d056fb76bb0a0758b71175721dd.jpg",
-          "image2": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fichef.bbci.co.uk%2Fimages%2Fic%2F960x540%2Fp01bqhl6.jpg&imgrefurl=https%3A%2F%2Fwww.bbc.co.uk%2Fmusic%2Fartists%2F83b9cbe7-9857-49e2-ab8e-b57b01038103&docid=1_Ta_na8wfq7TM&tbnid=3jYVE570cYIlUM%3A&vet=10ahUKEwi36s-uo4bmAhWSsp4KHfHCDxAQMwh9KAMwAw..i&w=960&h=540&bih=749&biw=1440&q=pearl%20jam&ved=0ahUKEwi36s-uo4bmAhWSsp4KHfHCDxAQMwh9KAMwAw&iact=mrc&uact=8",
-          "title": "Pearl Jam",
-          "latestAlbum": "Lighting Bolt"
-        },
-
-        {
-          "image1": "https://seeklogo.com/images/R/red-hot-chili-peppers-band-logo-EFD53A1A39-seeklogo.com.png",
-          "image2": "http://cdn.wallpapername.com/2502x1683/20121121/music%20red%20hot%20chili%20peppers%20john%20frusciante%20monochrome%20flea%20music%20bands%20greyscale%20anthony%20kiedis%20cha_www.wallpapername.com_52.jpg",
-          "title": "Red Hot Chili Peppers",
-          "latestAlbum": "The Getaway"
-        },
-        {
-          "image1": "https://i.pinimg.com/originals/c5/39/01/c539013abc6f7490d0357da7e86dd4aa.jpg",
-          "image2": "http://fadedflannel.com/everclear/EverclearPromoPic.jpg",
-          "title": "Everclear",
-          "latestAlbum": "Black Is the New Black"
-        }
-      ]
+      "band-name": "Pearl Jam",
+      "image": "../images/pearljamblackandwhite.jpg",
+      "description": "Pearl Jam is an American rock band formed in 1990 in Seattle, Washington. The band's current lineup comprises founding members Eddie Vedder, Mike McCready, Stone Gossard and Jeff Ament and Matt Cameron. Keyboardist Boom Gaspar has also been a session/touring member with the band since 2002.",
+      "latest-album": "Lightning Bolt (2013)"
+    },
+    {
+      "band-name": "Everclear",
+      "image": "../images/everclear.jpeg",
+      "description": " Everclear is an American rock band formed in Portland, Oregon, in 1991. The band was formed by Art Alexakis, the band's lead songwriter, vocalist, and guitarist; and for most of the band's height of popularity, consisted of Craig Montoya on bass guitar and Greg Eklund on drums.",
+      "latest-album": "Black Is the New Black (2015)"
+    },
+    {
+      "band-name": "Red Hot Chili Peppers",
+      "image": "../images/red-hot-chili-peppers-band-promo-2017.jpg",
+      "description": " Red Hot Chili Peppers are an American rock band formed in Los Angeles in 1983. The group's musical style primarily consists of alternative rock with an emphasis on funk, as well as elements from other genres such as punk rock and psychedelic rock.",
+      "latest-album": "The Getaway (2016)"
     }
   ]
 }

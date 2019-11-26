@@ -2,21 +2,21 @@ import React from 'react'
 // 1. import the json data
 import data from './data/bands.json'
 
-const Bands = props => {
+const RockBands = props => {
   //
-  const band = data.categories.filter(item => {
-    return item.category === props.match.params.category
+  const food = data.bands.filter(item => {
+    return item.bands === props.match.params.bands
   })[0]
-  console.log(band)
+  console.log(food)
   return (
-    <div className={props.match.params.category}>
-      <h1>{band.category}</h1>
+    <div className={props.match.params.bands}>
+      <h1>{props.match.params.bands}</h1>
       <ul>
-        {band.names.map(name => {
+        {food.treats.map(treat => {
           return (
             <li>
-              <header>{name.title}</header>
-              <img src={name.image1} alt="" />
+              <header>{treat.title}</header>
+              <img src={treat.image1} alt="" />
             </li>
           )
         })}
@@ -25,4 +25,4 @@ const Bands = props => {
   )
 }
 
-export default Bands
+export default RockBands

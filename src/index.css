@@ -1,5 +1,11 @@
 :root {
   font: 16px / 1 sans-serif;
+  --black: #0c0c0cbf;
+  --color1: #0c0b0b;
+  --color2: #f00808;
+  --color3: #4b4b4d;
+  --color4: #f70606;
+  --color5: #f4f7f1;
 }
 
 html {
@@ -9,4 +15,94 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--color2);
+}
+
+.home-link {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+header {
+  display: flex;
+  font-size: 2.25rem;
+  font-weight: 600;
+  margin: 2rem;
+}
+.home-page,
+.band-page,
+.main-band-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--color1);
+}
+
+.band-page {
+  margin-top: 5rem;
+}
+
+.band {
+  margin: 1rem;
+  padding: 1rem;
+  border-bottom: solid 2px var(--black);
+}
+
+.band p {
+  line-height: 1.5;
+}
+
+img {
+  /* box-shadow: 3px 3px 5px 0px var(--black); */
+  height: 20rem;
+  width: 30rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 0rem;
+}
+
+span {
+  font-weight: normal;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  margin-left: 6rem;
+}
+.logo-name {
+  display: flex;
+  justify-content: center space-between;
+}
+
+.box-shadow {
+  box-shadow: 3px 3px 5px 0px var(--black);
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 14rem;
+}
+.e-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.j-c {
+  margin-left: 17rem;
 }
