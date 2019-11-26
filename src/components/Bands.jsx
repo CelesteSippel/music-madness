@@ -4,23 +4,21 @@ import data from './data/bands.json'
 
 const RockBands = props => {
   //
-  const food = data.bands.filter(item => {
-    return item.bands === props.match.params.bands
+  const bands = data.categories.filter(item => {
+    return item.category === props.match.params.category
   })[0]
-  console.log(food)
+
   return (
-    <div className={props.match.params.bands}>
-      <h1>{props.match.params.bands}</h1>
-      <ul>
-        {food.treats.map(treat => {
-          return (
-            <li>
-              <header>{treat.title}</header>
-              <img src={treat.image1} alt="" />
-            </li>
-          )
-        })}
-      </ul>
+    <div className={props.match.params.category}>
+      {bands.albums.map(band => {
+        return (
+          <div>
+            <header>{band.title}</header>
+            <img src={band.image} alt="" />
+            <p>{band.info}</p>
+          </div>
+        )
+      })}
     </div>
   )
 }

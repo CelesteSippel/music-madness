@@ -2,13 +2,13 @@
   "bands": [
     {
       "band-name": "Pearl Jam",
-      "image": "../images/pearljamblackandwhite.jpg",
+      "image": "../images/pearljamhugging.jpg",
       "description": "Pearl Jam is an American rock band formed in 1990 in Seattle, Washington. The band's current lineup comprises founding members Eddie Vedder, Mike McCready, Stone Gossard and Jeff Ament and Matt Cameron. Keyboardist Boom Gaspar has also been a session/touring member with the band since 2002.",
       "latest-album": "Lightning Bolt (2013)"
     },
     {
       "band-name": "Everclear",
-      "image": "../images/everclear.jpeg",
+      "image": "../images/everclear.jpg",
       "description": " Everclear is an American rock band formed in Portland, Oregon, in 1991. The band was formed by Art Alexakis, the band's lead songwriter, vocalist, and guitarist; and for most of the band's height of popularity, consisted of Craig Montoya on bass guitar and Greg Eklund on drums.",
       "latest-album": "Black Is the New Black (2015)"
     },

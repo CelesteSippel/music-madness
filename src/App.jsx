@@ -5,6 +5,7 @@ import PearlJam from './components/PearlJam'
 import RedHotChiliPeppers from './components/RedHotChiliPeppers'
 import Everclear from './components/Everclear'
 import NavBar from './components/NavBar'
+// import Bands from './components/Bands'
 
 const App = () => {
   return (
